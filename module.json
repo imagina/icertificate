@@ -1,0 +1,16 @@
+{
+    "name": "Icertificate",
+    "alias": "icertificate",
+    "version": "1.0.0",
+	"description": "",
+    "keywords": [],
+    "priority": 1,
+    "providers": [
+        "Modules\\Icertificate\\Providers\\IcertificateServiceProvider",
+        "Modules\\Icertificate\\Providers\\EventServiceProvider",
+        "Modules\\Icertificate\\Providers\\RouteServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
