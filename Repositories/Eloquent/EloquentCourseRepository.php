@@ -2,7 +2,7 @@
 
 namespace Modules\Icertificate\Repositories\Eloquent;
 
-use Repositories\CourseRepository;
+use Modules\Icertificate\Repositories\CourseRepository;
 use Modules\Core\Icrud\Repositories\Eloquent\EloquentCrudRepository;
 
 class EloquentCourseRepository extends EloquentCrudRepository implements CourseRepository

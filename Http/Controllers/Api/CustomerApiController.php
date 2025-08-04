@@ -4,8 +4,8 @@ namespace Modules\Icertificate\Http\Controllers\Api;
 
 use Modules\Core\Icrud\Controllers\BaseCrudController;
 //Model
-use Entities\Customer;
-use Repositories\CustomerRepository;
+use Modules\Icertificate\Entities\Customer;
+use Modules\Icertificate\Repositories\CustomerRepository;
 
 class CustomerApiController extends BaseCrudController
 {

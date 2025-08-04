@@ -10,11 +10,11 @@ class Trainer extends CrudModel
   use Translatable;
 
   protected $table = 'icertificate__trainers';
-  public $transformer = 'Transformers\TrainerTransformer';
-  public $repository = 'Repositories\TrainerRepository';
+  public $transformer = 'Modules\Icertificate\Transformers\TrainerTransformer';
+  public $repository = 'Modules\Icertificate\Repositories\TrainerRepository';
   public $requestValidation = [
-      'create' => 'Http\Requests\CreateTrainerRequest',
-      'update' => 'Http\Requests\UpdateTrainerRequest',
+      'create' => 'Modules\Icertificate\Http\Requests\CreateTrainerRequest',
+      'update' => 'Modules\Icertificate\Http\Requests\UpdateTrainerRequest',
     ];
   //Instance external/internal events to dispatch with extraData
   public $dispatchesEventsWithBindings = [

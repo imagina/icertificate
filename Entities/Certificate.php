@@ -2,7 +2,7 @@
 
 namespace Modules\Icertificate\Entities;
 
-use Entities\Company;use Entities\Course;use Entities\Customer;use Modules\Core\Icrud\Entities\CrudModel;
+use Modules\Core\Icrud\Entities\CrudModel;
 use Illuminate\Support\Str;
 use Carbon\Carbon;
 
@@ -10,11 +10,11 @@ class Certificate extends CrudModel
 {
 
   protected $table = 'icertificate__certificates';
-  public $transformer = 'Transformers\CertificateTransformer';
-  public $repository = 'Repositories\CertificateRepository';
+  public $transformer = 'Modules\Icertificate\Transformers\CertificateTransformer';
+  public $repository = 'Modules\Icertificate\Repositories\CertificateRepository';
   public $requestValidation = [
-    'create' => 'Http\Requests\CreateCertificateRequest',
-    'update' => 'Http\Requests\UpdateCertificateRequest',
+    'create' => 'Modules\Icertificate\Http\Requests\CreateCertificateRequest',
+    'update' => 'Modules\Icertificate\Http\Requests\UpdateCertificateRequest',
   ];
   //Instance external/internal events to dispatch with extraData
   public $dispatchesEventsWithBindings = [

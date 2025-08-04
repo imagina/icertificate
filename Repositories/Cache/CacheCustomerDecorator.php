@@ -2,7 +2,7 @@
 
 namespace Modules\Icertificate\Repositories\Cache;
 
-use Repositories\CustomerRepository;
+use Modules\Icertificate\Repositories\CustomerRepository;
 use Modules\Core\Icrud\Repositories\Cache\BaseCacheCrudDecorator;
 
 class CacheCustomerDecorator extends BaseCacheCrudDecorator implements CustomerRepository

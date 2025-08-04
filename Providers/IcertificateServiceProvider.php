@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Modules\Core\Traits\CanPublishConfiguration;
 use Modules\Core\Events\BuildingSidebar;
 use Modules\Core\Events\LoadingBackendTranslations;
-use Listeners\RegisterIcertificateSidebar;
+use Modules\Icertificate\Listeners\RegisterIcertificateSidebar;
 
 class IcertificateServiceProvider extends ServiceProvider
 {

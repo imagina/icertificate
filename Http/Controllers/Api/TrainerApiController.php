@@ -4,8 +4,8 @@ namespace Modules\Icertificate\Http\Controllers\Api;
 
 use Modules\Core\Icrud\Controllers\BaseCrudController;
 //Model
-use Entities\Trainer;
-use Repositories\TrainerRepository;
+use Modules\Icertificate\Entities\Trainer;
+use Modules\Icertificate\Repositories\TrainerRepository;
 
 class TrainerApiController extends BaseCrudController
 {

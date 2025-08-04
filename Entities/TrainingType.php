@@ -10,11 +10,11 @@ class TrainingType extends CrudModel
   use Translatable;
 
   protected $table = 'icertificate__training_types';
-  public $transformer = 'Transformers\TrainingTypeTransformer';
-  public $repository = 'Repositories\TrainingTypeRepository';
+  public $transformer = 'Modules\Icertificate\Transformers\TrainingTypeTransformer';
+  public $repository = 'Modules\Icertificate\Repositories\TrainingTypeRepository';
   public $requestValidation = [
-      'create' => 'Http\Requests\CreateTrainingTypeRequest',
-      'update' => 'Http\Requests\UpdateTrainingTypeRequest',
+      'create' => 'Modules\Icertificate\Http\Requests\CreateTrainingTypeRequest',
+      'update' => 'Modules\Icertificate\Http\Requests\UpdateTrainingTypeRequest',
     ];
   //Instance external/internal events to dispatch with extraData
   public $dispatchesEventsWithBindings = [

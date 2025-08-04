@@ -2,19 +2,17 @@
 
 namespace Modules\Icertificate\Entities;
 
-use Astrotomic\Translatable\Translatable;
 use Modules\Core\Icrud\Entities\CrudModel;
 
 class Customer extends CrudModel
 {
-  use Translatable;
 
   protected $table = 'icertificate__customers';
-  public $transformer = 'Transformers\CustomerTransformer';
-  public $repository = 'Repositories\CustomerRepository';
+  public $transformer = 'Modules\Icertificate\Transformers\CustomerTransformer';
+  public $repository = 'Modules\Icertificate\Repositories\CustomerRepository';
   public $requestValidation = [
-      'create' => 'Http\Requests\CreateCustomerRequest',
-      'update' => 'Http\Requests\UpdateCustomerRequest',
+      'create' => 'Modules\Icertificate\Http\Requests\CreateCustomerRequest',
+      'update' => 'Modules\Icertificate\Http\Requests\UpdateCustomerRequest',
     ];
   //Instance external/internal events to dispatch with extraData
   public $dispatchesEventsWithBindings = [

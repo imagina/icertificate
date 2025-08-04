@@ -2,7 +2,7 @@
 
 namespace Modules\Icertificate\Repositories\Cache;
 
-use Repositories\TrainingTypeRepository;
+use Modules\Icertificate\Repositories\TrainingTypeRepository;
 use Modules\Core\Icrud\Repositories\Cache\BaseCacheCrudDecorator;
 
 class CacheTrainingTypeDecorator extends BaseCacheCrudDecorator implements TrainingTypeRepository

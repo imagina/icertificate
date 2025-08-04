@@ -4,8 +4,8 @@ namespace Modules\Icertificate\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
-use Repositories\CertificateRepository;
-use Repositories\CustomerRepository;
+use Modules\Icertificate\Repositories\CertificateRepository;
+use Modules\Icertificate\Repositories\CustomerRepository;
 use PDF;
 
 class PublicController extends Controller

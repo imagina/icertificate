@@ -3,18 +3,17 @@
 namespace Modules\Icertificate\Entities;
 
 use Astrotomic\Translatable\Translatable;
-use Entities\Trainer;use Entities\TrainingType;use Modules\Core\Icrud\Entities\CrudModel;
+use Modules\Core\Icrud\Entities\CrudModel;
 
 class Course extends CrudModel
 {
-  use Translatable;
 
   protected $table = 'icertificate__courses';
-  public $transformer = 'Transformers\CourseTransformer';
-  public $repository = 'Repositories\CourseRepository';
+  public $transformer = 'Modules\Icertificate\Transformers\CourseTransformer';
+  public $repository = 'Modules\Icertificate\Repositories\CourseRepository';
   public $requestValidation = [
-      'create' => 'Http\Requests\CreateCourseRequest',
-      'update' => 'Http\Requests\UpdateCourseRequest',
+      'create' => 'Modules\Icertificate\Http\Requests\CreateCourseRequest',
+      'update' => 'Modules\Icertificate\Http\Requests\UpdateCourseRequest',
     ];
   //Instance external/internal events to dispatch with extraData
   public $dispatchesEventsWithBindings = [
