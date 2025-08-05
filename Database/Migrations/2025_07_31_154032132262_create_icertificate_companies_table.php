@@ -16,7 +16,7 @@ class CreateIcertificateCompaniesTable extends Migration
       $table->engine = 'InnoDB';
       $table->increments('id');
       $table->string('business_name');
-      $table->integer('nit')->unique();
+      $table->string('nit')->unique();
       $table->string('address')->nullable();
       $table->string('phone')->nullable();
 

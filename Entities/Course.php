@@ -7,6 +7,7 @@ use Modules\Core\Icrud\Entities\CrudModel;
 
 class Course extends CrudModel
 {
+  use Translatable;
 
   protected $table = 'icertificate__courses';
   public $transformer = 'Modules\Icertificate\Transformers\CourseTransformer';
