@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List courses',
-    'create resource' => 'Create courses',
-    'edit resource' => 'Edit courses',
-    'destroy resource' => 'Destroy courses',
+    'list resource' => 'Listar cursos',
+    'create resource' => 'Crear cursos',
+    'edit resource' => 'Editar cursos',
+    'destroy resource' => 'Eliminar cursos',
     'title' => [
-        'courses' => 'Course',
-        'create course' => 'Create a course',
-        'edit course' => 'Edit a course',
+        'courses' => 'Curso',
+        'create course' => 'Crear un curso',
+        'edit course' => 'Editar un curso',
     ],
     'button' => [
-        'create course' => 'Create a course',
+        'create course' => 'Crear un curso',
     ],
     'table' => [
     ],

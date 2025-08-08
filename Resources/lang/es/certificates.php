@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List certificates',
-    'create resource' => 'Create certificates',
-    'edit resource' => 'Edit certificates',
-    'destroy resource' => 'Destroy certificates',
+    'list resource' => 'Listar certificados',
+    'create resource' => 'Crear certificados',
+    'edit resource' => 'Editar certificados',
+    'destroy resource' => 'Eliminar certificados',
     'title' => [
-        'certificates' => 'Certificate',
-        'create certificate' => 'Create a certificate',
-        'edit certificate' => 'Edit a certificate',
+        'certificates' => 'Certificado',
+        'create certificate' => 'Crear un certificado',
+        'edit certificate' => 'Editar un certificado',
     ],
     'button' => [
-        'create certificate' => 'Create a certificate',
+        'create certificate' => 'Crear un certificado',
     ],
     'table' => [
     ],

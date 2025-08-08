@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List trainingtypes',
-    'create resource' => 'Create trainingtypes',
-    'edit resource' => 'Edit trainingtypes',
-    'destroy resource' => 'Destroy trainingtypes',
+    'list resource' => 'Listar tipos de entrenamiento',
+    'create resource' => 'Crear tipos de entrenamiento',
+    'edit resource' => 'Editar tipos de entrenamiento',
+    'destroy resource' => 'Eliminar tipos de entrenamiento',
     'title' => [
-        'trainingtypes' => 'TrainingType',
-        'create trainingtype' => 'Create a trainingtype',
-        'edit trainingtype' => 'Edit a trainingtype',
+        'trainingtypes' => 'Tipo de entrenamiento',
+        'create trainingtype' => 'Crear un tipo de entrenamiento',
+        'edit trainingtype' => 'Editar un tipo de entrenamiento',
     ],
     'button' => [
-        'create trainingtype' => 'Create a trainingtype',
+        'create trainingtype' => 'Crear un tipo de entrenamiento',
     ],
     'table' => [
     ],

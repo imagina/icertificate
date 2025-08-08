@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List companies',
-    'create resource' => 'Create companies',
-    'edit resource' => 'Edit companies',
-    'destroy resource' => 'Destroy companies',
+    'list resource' => 'Listar empresas',
+    'create resource' => 'Crear empresas',
+    'edit resource' => 'Editar empresas',
+    'destroy resource' => 'Eliminar empresas',
     'title' => [
-        'companies' => 'Company',
-        'create company' => 'Create a company',
-        'edit company' => 'Edit a company',
+        'companies' => 'Empresa',
+        'create company' => 'Crear una empresa',
+        'edit company' => 'Editar una empresa',
     ],
     'button' => [
-        'create company' => 'Create a company',
+        'create company' => 'Crear una empresa',
     ],
     'table' => [
     ],

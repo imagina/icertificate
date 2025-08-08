@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List trainers',
-    'create resource' => 'Create trainers',
-    'edit resource' => 'Edit trainers',
-    'destroy resource' => 'Destroy trainers',
+    'list resource' => 'Lista de entrenadores',
+    'create resource' => 'Crear entrenadores',
+    'edit resource' => 'Editar entrenadores',
+    'destroy resource' => 'Eliminar entrenadores',
     'title' => [
-        'trainers' => 'Trainer',
-        'create trainer' => 'Create a trainer',
-        'edit trainer' => 'Edit a trainer',
+        'trainers' => 'Entrenador',
+        'create trainer' => 'Crear un entrenador',
+        'edit trainer' => 'Editar un entrenador',
     ],
     'button' => [
-        'create trainer' => 'Create a trainer',
+        'create trainer' => 'Crear un entrenador',
     ],
     'table' => [
     ],

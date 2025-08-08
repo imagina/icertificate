@@ -1,17 +1,17 @@
 <?php
 
 return [
-    'list resource' => 'List customers',
-    'create resource' => 'Create customers',
-    'edit resource' => 'Edit customers',
-    'destroy resource' => 'Destroy customers',
+    'list resource' => 'Listar clientes',
+    'create resource' => 'Crear clientes',
+    'edit resource' => 'Editar clientes',
+    'destroy resource' => 'Eliminar clientes',
     'title' => [
-        'customers' => 'Customer',
-        'create customer' => 'Create a customer',
-        'edit customer' => 'Edit a customer',
+        'customers' => 'Cliente',
+        'create customer' => 'Crear un cliente',
+        'edit customer' => 'Editar un cliente',
     ],
     'button' => [
-        'create customer' => 'Create a customer',
+        'create customer' => 'Crear un cliente',
     ],
     'table' => [
     ],
