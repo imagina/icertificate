@@ -1,6 +1,7 @@
 <?php
 
 return [
+  "name" => "Certificate",
   "cms" => [
     "sidebar" => [
       "adminGroup" => "Certificates",
