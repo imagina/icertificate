@@ -25,6 +25,8 @@ return [
     'lookupTitle' => 'Consulta de Certificados',
     'labelIdSearch' => 'Número de documento',
     'labelButtonSearch' => 'Buscar',
+    'labelCourse' => 'Curso: ',
+    'labelStartDate' => 'Fecha: ',
     'titleDownloadSection' => 'Certificados encontrados',
     'buttonDownloadSection' => 'Descargar Certificado'
   ]

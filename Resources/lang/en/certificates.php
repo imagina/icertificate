@@ -25,6 +25,8 @@ return [
     'lookupTitle' => 'Certificate Consultation',
     'labelIdSearch' => 'Document number',
     'labelButtonSearch' => 'Search',
+    'labelCourse' => 'Course: ',
+    'labelStartDate' => 'Date: ',
     'titleDownloadSection' => 'Certificates found',
     'buttonDownloadSection' => 'Download Certificate'
   ]

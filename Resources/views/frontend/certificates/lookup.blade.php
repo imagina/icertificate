@@ -24,9 +24,10 @@
             <ul class="list-group">
                 @foreach ($certificates as $certificate)
                     <li class="list-group-item d-flex justify-content-between align-items-center">
-                        Curso: {{ $certificate->course->title }} | Fecha: {{ $certificate->start_date }}
+                        {{trans('icertificate::certificates.view.labelCourse')}} {{ $certificate->course->title }}
+                        | {{trans('icertificate::certificates.view.labelStartDate')}} {{ $certificate->start_date }}
                         <a href="{{ route(LaravelLocalization::getCurrentLocale() . '.icertificates.download', $certificate->id) }}"
-                           class="btn btn-sm btn-success">
+                           class="btn btn-sm btn-success" target="_blank">
                             {{trans('icertificate::certificates.view.buttonDownloadSection')}}
                         </a>
 

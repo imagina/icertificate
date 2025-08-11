@@ -312,12 +312,9 @@
     <div class="d-flex flex-column justify-content-center align-items-center w-100">
       <div class="logo-center"
            style="background-image: url({{setting('icertificate::logoSecondary')}});">
-        {{--      <h1>CULTURA VIAL</h1>--}}
-        {{--      <div class="subtitle">MOVILIDAD Y SERVICIOS</div>--}}
       </div>
       <div class="nit text-center w-100" style="min-width: 100%">
-        NIT: 901.539.075-7
-        {{ trans('icertificate::pdf.filePdf.nit') }}
+        {{ setting('icertificate::infoNitCertificate') }}
       </div>
     </div>
   </div>
