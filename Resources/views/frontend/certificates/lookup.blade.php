@@ -2,29 +2,32 @@
 
 @section('content')
     <div class="container py-5">
-        <h2 class="mb-4">Consulta de Certificados</h2>
+        <h2 class="mb-4">{{trans('icertificate::certificates.view.lookupTitle')}}</h2>
 
         @if (session('error'))
             <div class="alert alert-danger">{{ session('error') }}</div>
         @endif
 
         <form method="POST" action="{{ route(LaravelLocalization::getCurrentLocale() . '.icertificates.lookup') }}">
-        @csrf
+            @csrf
             <div class="mb-3">
-                <label for="document" class="form-label">Número de documento</label>
+                <label for="document"
+                       class="form-label">{{trans('icertificate::certificates.view.labelIdSearch')}}</label>
                 <input type="text" class="form-control" id="document" name="document" required>
             </div>
-            <button type="submit" class="btn btn-primary">Buscar</button>
+            <button type="submit"
+                    class="btn btn-primary">{{trans('icertificate::certificates.view.labelButtonSearch')}}</button>
         </form>
 
         @if (isset($certificates) && count($certificates))
-            <h4 class="mt-5">Certificados encontrados</h4>
+            <h4 class="mt-5">{{trans('icertificate::certificates.view.titleDownloadSection')}}</h4>
             <ul class="list-group">
                 @foreach ($certificates as $certificate)
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                         Curso: {{ $certificate->course->title }} | Fecha: {{ $certificate->start_date }}
-                        <a href="{{ route(LaravelLocalization::getCurrentLocale() . '.icertificates.download', $certificate->id) }}" class="btn btn-sm btn-success">
-                            Descargar PDF
+                        <a href="{{ route(LaravelLocalization::getCurrentLocale() . '.icertificates.download', $certificate->id) }}"
+                           class="btn btn-sm btn-success">
+                            {{trans('icertificate::certificates.view.buttonDownloadSection')}}
                         </a>
 
                     </li>
